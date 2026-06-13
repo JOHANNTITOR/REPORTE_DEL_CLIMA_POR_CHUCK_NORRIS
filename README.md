@@ -1,6 +1,8 @@
 #🌦️ Reporte Meteorológico inspirado en Chuck Norris
 
-Aplicación interactiva desarrollada en Python y Streamlit que consulta datos meteorológicos en tiempo real y los presenta mediante dashboards visuales. Como elemento distintivo, incorpora frases humorísticas inspiradas en el personaje Chuck Norris para entregar consejos y observaciones climáticas de forma entretenida.
+    Aplicación interactiva desarrollada en Python y Streamlit que consulta datos meteorológicos en tiempo real y los presenta mediante dashboards visuales.
+
+Como elemento distintivo, incorpora frases humorísticas inspiradas en el personaje Chuck Norris para entregar consejos y observaciones climáticas de forma entretenida.
 
 Este proyecto representa una primera aproximación al desarrollo de dashboards interactivos y al consumo de APIs externas desde Python.
 
