@@ -113,7 +113,9 @@ https://api.open-meteo.com/v1/forecast
 
 ## ¿Por qué Chuck Norris?
 
-Chuck Norris se utiliza como elemento humorístico para acompañar la información meteorológica.
+Chuck Norris ya es parte la del folklore popular, redes, conocido a nivel mundial por sus memes, reseñas humorísticas y las fantasías de realizar tareas extremadamente complejas o que requieran una fuerza ridiculamente extraordinaria. Fué reseñado como ejemplo práctico por el profesor en la segunda clase. 
+
+Además, Chuck Norris me envió un mensaje de advertencia, mejor es no desafiarlo.
 
 Además de aportar personalidad a la aplicación, sirve como ejemplo práctico de generación de contenido dinámico y aleatorio dentro de una interfaz interactiva.
 
