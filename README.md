@@ -79,16 +79,18 @@ La información se presenta mediante:
 
 - Indicadores Gauge.
 - Escalas de colores RGB.
-- Gráficos radar para dirección del viento.
-- Imagen de Chuck Norris acompañada por un consejo aleatorio.
+  
+- Gráficos radar (eje de coordenadas circular) para dirección del viento.
+  
+- Imagen de Chuck Norris acompañada por un consejo del día condicionado al parámetro afmosférico 'tempertura actual'
 
 8. Información para desarrolladores
 
-El JSON completo recibido desde la API puede visualizarse dentro de un componente expandible para facilitar el análisis y la depuración.
+El JSON completo recibido desde la API puede visualizarse en la web dentro de un componente expandible para facilitar el análisis y debuggeo.
 
 ---
 
-## Objetivo del proyecto
+## ¿Cuales son los Objetivo del proyecto?
 
 Este proyecto fue desarrollado con fines educativos para practicar:
 
@@ -101,7 +103,7 @@ Este proyecto fue desarrollado con fines educativos para practicar:
 
 ---
 
-## Fuente de datos
+## ¿Desde donde obtengo la consulta API?
 
 Los datos meteorológicos son obtenidos desde la API de Open-Meteo:
 
@@ -117,42 +119,43 @@ Además de aportar personalidad a la aplicación, sirve como ejemplo práctico d
 
 ---
 
-## Archivo principal
+## ¿cual es el archivo principal, ejecutable?
 
 reporte.py
 
 ---
 
-## Ejecución
+## ¿Como se ejecuta?
 
 Desde la carpeta principal del proyecto ejecutar:
 
-python -m streamlit run reporte.py
+    python -m streamlit run reporte.py
 
 ---
 
-## Dependencias
+## Llamado a librerias, asignacion de alias
 
-import streamlit as st
-import plotly.graph_objects as go
-import requests
-import base64
-import random
-import json
+    import streamlit as st
+    import plotly.graph_objects as go
+    import requests
+    import base64
+    import random
+    import json
 
 ## Descripción de librerías
 
-Librería| Función
-Streamlit| Desarrollo de aplicaciones web interactivas
-Plotly| Creación de gráficos y dashboards
-Requests| Consulta de APIs mediante HTTP
-Base64| Conversión de imágenes binarias a texto
-Random| Generación de elementos aleatorios
-JSON| Manipulación de estructuras JSON
+Librería | Función
+
+Streamlit | Desarrollo de aplicaciones web interactivas
+Plotly | Creación de gráficos y dashboards
+Requests | Consulta de APIs mediante HTTP
+Base64 | Conversión de imágenes binarias a texto
+Random | Generación de elementos aleatorios
+JSON | Manipulación de estructuras JSON
 
 ---
 
-## Tecnologías utilizadas
+## ¿Qué Tecnologías uso?
 
 - Python
 - Streamlit
@@ -160,6 +163,7 @@ JSON| Manipulación de estructuras JSON
 - CSS
 - JSON
 - REST API
-- Open-Meteo
+- RANDOM
+- 64 ENCODE/DECODE
   
 ---
