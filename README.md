@@ -32,3 +32,24 @@ La aplicación combina datos climáticos obtenidos desde una API meteorológica 
 ¿Por qué Chuck Norris?
 
 Sirve como ejemplo de uso divertido y didáctico. Es un personaje muy conocido a nivel mundial. Es la explicación cómica a funciones absurdamente complejas.
+
+¿cual es el ejecutable?
+
+reporte.py
+
+¿cómo lo ejecuto?
+
+en la carpeta principal abre una terminal y tipea:
+python -m streamlit run reporte.py
+
+¿que necesito?
+
+tener instaladas las librerías correspondientes:
+
+import streamlit as st #carga código py al navegador, webs interactivas, prototipado rápido.
+import plotly.graph_objects as go #crea gráficos, gauges, visualización, gráficos, dashboards, de todo.
+import requests #para consultas APIs, consultas en general.
+import base64 #para incrustar imágenes en CSS, transforma binarios en texto plano.
+import random #aleatorización.
+import json #para trabajar con estandard JSON.
+
