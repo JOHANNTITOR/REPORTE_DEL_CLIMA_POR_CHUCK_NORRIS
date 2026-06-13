@@ -3,7 +3,7 @@
   Este proyecto consiste en una aplicación interactiva desarrollada en Python y Streamlit, que aunque aún no llegamos a esa parte del curso, se me hizo correcto experimentar
   la experiencia de usar los gráficos de este, para representar mi primera incursión en los dashboards interactivos.
 
-Este programa realiza los siguientes pasos de forma más o menos secuencial:
+# Este programa realiza los siguientes pasos de forma más o menos secuencial:
 
   carga e importa librerías externas
   carga librería propia consejo.py (usa librería random) selección aleatoria mediante condicional if
@@ -21,35 +21,35 @@ Este programa realiza los siguientes pasos de forma más o menos secuencial:
   muestra gráfico tipo radar o eje de coordenadas circular con dirección del viento.
   muestra el JSON en un expander, para dar contexto al desarrollador.
 
-¿Por qué es necesario hacer esto?
+# ¿Por qué es necesario hacer esto?
 
   Para poder asimilar conocimientos nuevos adquiridos de librerías, consultas APIs, estados, manejo de variables.
 
-¿Dónde extraigo los datos?
+# ¿Dónde extraigo los datos?
 
   La aplicación combina datos climáticos obtenidos desde una API meteorológica "https://api.open-meteo.com/v1/forecast".
 
-¿Por qué Chuck Norris?
+# ¿Por qué Chuck Norris?
 
   Sirve como ejemplo de uso divertido y didáctico. Es un personaje muy conocido a nivel mundial. Es la explicación cómica a funciones absurdamente complejas.
 
-¿cual es el ejecutable?
+# ¿cual es el ejecutable?
 
   reporte.py
 
-¿cómo lo ejecuto?
+# ¿cómo lo ejecuto?
 
   en la carpeta principal abre una terminal y tipea:
   python -m streamlit run reporte.py
 
-¿que necesito?
+# ¿que necesito?
 
   tener instaladas las librerías correspondientes:
   
   import streamlit as st #carga código py al navegador, webs interactivas, prototipado rápido.
   import plotly.graph_objects as go #crea gráficos, gauges, visualización, gráficos, dashboards, de todo.
   import requests #para consultas APIs, consultas en general.
-import base64 #para incrustar imágenes en CSS, transforma binarios en texto plano.
-import random #aleatorización.
-import json #para trabajar con estandard JSON.
+  import base64 #para incrustar imágenes en CSS, transforma binarios en texto plano.
+  import random #aleatorización.
+  import json #para trabajar con estandard JSON.
 
