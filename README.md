@@ -1,6 +1,6 @@
-#🌦️ Reporte Meteorológico inspirado en Chuck Norris
+# Reporte Meteorológico inspirado en Chuck Norris
 
-    Aplicación interactiva desarrollada en Python y Streamlit que consulta datos meteorológicos en tiempo real y los presenta mediante dashboards visuales.
+Aplicación interactiva desarrollada en Python y Streamlit que consulta datos meteorológicos en tiempo real y los presenta mediante dashboards visuales.
 
 Como elemento distintivo, incorpora frases humorísticas inspiradas en el personaje Chuck Norris para entregar consejos y observaciones climáticas de forma entretenida.
 
@@ -8,21 +8,24 @@ Este proyecto representa una primera aproximación al desarrollo de dashboards i
 
 ---
 
-🚀 Características principales
+## Características principales
 
 - Consulta datos meteorológicos en tiempo real mediante API.
+  
 - Visualización interactiva utilizando Streamlit.
 - Indicadores tipo Gauge para variables atmosféricas.
+  
 - Gráfico radar para dirección del viento.
 - Integración de imágenes mediante CSS y Base64.
 - Sistema de consejos aleatorios inspirado en Chuck Norris.
+  
 - Mecanismo de respaldo ante fallos de conexión.
 - Herramientas de depuración para desarrollo.
 - Visualización del JSON recibido para análisis y aprendizaje.
 
 ---
 
-#⚙️ Funcionamiento general
+## Funcionamiento general
 
 La aplicación realiza los siguientes procesos:
 
@@ -85,7 +88,7 @@ El JSON completo recibido desde la API puede visualizarse dentro de un component
 
 ---
 
-#🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 Este proyecto fue desarrollado con fines educativos para practicar:
 
@@ -98,7 +101,7 @@ Este proyecto fue desarrollado con fines educativos para practicar:
 
 ---
 
-🌎 Fuente de datos
+## Fuente de datos
 
 Los datos meteorológicos son obtenidos desde la API de Open-Meteo:
 
@@ -106,7 +109,7 @@ https://api.open-meteo.com/v1/forecast
 
 ---
 
-😎 ¿Por qué Chuck Norris?
+## ¿Por qué Chuck Norris?
 
 Chuck Norris se utiliza como elemento humorístico para acompañar la información meteorológica.
 
@@ -114,13 +117,13 @@ Además de aportar personalidad a la aplicación, sirve como ejemplo práctico d
 
 ---
 
-📂 Archivo principal
+## Archivo principal
 
 reporte.py
 
 ---
 
-▶️ Ejecución
+## Ejecución
 
 Desde la carpeta principal del proyecto ejecutar:
 
@@ -128,7 +131,7 @@ python -m streamlit run reporte.py
 
 ---
 
-📦 Dependencias
+## Dependencias
 
 import streamlit as st
 import plotly.graph_objects as go
@@ -137,7 +140,7 @@ import base64
 import random
 import json
 
-Descripción de librerías
+## Descripción de librerías
 
 Librería| Función
 Streamlit| Desarrollo de aplicaciones web interactivas
@@ -149,7 +152,7 @@ JSON| Manipulación de estructuras JSON
 
 ---
 
-📚 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python
 - Streamlit
@@ -158,5 +161,5 @@ JSON| Manipulación de estructuras JSON
 - JSON
 - REST API
 - Open-Meteo
-
+  
 ---
