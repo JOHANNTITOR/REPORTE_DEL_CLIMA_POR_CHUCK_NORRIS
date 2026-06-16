@@ -13,6 +13,7 @@ import json
 from consejo import obtener_respuesta
 
 #globales
+temperatura = 1;
 primera_vez = True; #Tira un chiste al recargar la página o sea Shift + Ctrl + R. Funciona bien con True
 debbugear = False; #True para solo para debbugear. carga estructura JSON por omisión - solo para pruebas sin consultar a la API
 
