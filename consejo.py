@@ -3,7 +3,7 @@ import random
 #mi primera función, parámetro recibido (temperatura)
 def obtener_respuesta(temperatura):
     
-    if temperatura <= 0:
+    if temperatura < 5:
         respuesta = "hoy decidí abrir mi refrigerador, así que abrigate como si fueses al Everest!"
 
     if temperatura >= 5 < 10:
