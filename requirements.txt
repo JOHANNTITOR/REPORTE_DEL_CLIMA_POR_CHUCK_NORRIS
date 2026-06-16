@@ -1,6 +1,3 @@
 streamlit
 plotly
 requests
-base64
-random
-json
